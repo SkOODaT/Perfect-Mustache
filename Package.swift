@@ -1,6 +1,5 @@
-// swift-tools-version:5.1
-// Generated automatically by Perfect Assistant
-// Date: 2018-05-31 18:31:13 +0000
+// swift-tools-version:5.2
+
 import PackageDescription
 
 let package = Package(
@@ -12,7 +11,7 @@ let package = Package(
 		.library(name: "PerfectMustache", targets: ["PerfectMustache"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/PerfectlySoft/PerfectLib.git", from: "4.0.0"),
+        .package(name: "PerfectLib", url: "https://github.com/123FLO321/Perfect.git", .branch("swift5")),
 	],
 	targets: [
 		.target(name: "PerfectMustache", dependencies: ["PerfectLib"]),
