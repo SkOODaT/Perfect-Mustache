@@ -11,7 +11,7 @@ let package = Package(
 		.library(name: "PerfectMustache", targets: ["PerfectMustache"])
 	],
 	dependencies: [
-        .package(name: "PerfectLib", url: "https://github.com/123FLO321/Perfect.git", .branch("swift5")),
+        .package(name: "PerfectLib", url: "https://github.com/SkOODaT/Perfect.git", .branch("SKOODAT")),
 	],
 	targets: [
 		.target(name: "PerfectMustache", dependencies: ["PerfectLib"]),
